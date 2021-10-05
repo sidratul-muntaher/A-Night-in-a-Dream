@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Final Platform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Foreground
+  - Player
+  - Enemy
+  - Bullets
+  - enemyBody
+  - Hazard
+  - coin_and_ghost
+  - Ghost
+  - General
+  - Flag
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Black
+    uniqueID: 1536099495
+    locked: 0
+  - name: Background
+    uniqueID: 3207417589
+    locked: 0
+  - name: Decorations
+    uniqueID: 939116627
+    locked: 0
+  - name: Hazard
+    uniqueID: 1356305133
+    locked: 0
+  - name: coin
+    uniqueID: 1843568687
+    locked: 0
+  - name: Enemy
+    uniqueID: 4054959949
+    locked: 0
+  - name: Player
+    uniqueID: 2734309431
+    locked: 0
+  - name: Rocks
+    uniqueID: 2623687649
+    locked: 0
+  - name: Foreground
+    uniqueID: 919607233
+    locked: 0

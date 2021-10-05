@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: d30ea3878b677b64084866dff262f5fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8177432107892680784
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_0
+  - first:
+      213: -2739907662653300629
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_1
+  - first:
+      213: -7690440416535805714
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_2
+  - first:
+      213: -8214827308146294686
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_3
+  - first:
+      213: 4593854591825480185
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_4
+  - first:
+      213: 1070982404138316710
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_5
+  - first:
+      213: -6476200487734986521
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_6
+  - first:
+      213: 1180850380638604734
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_7
+  - first:
+      213: 6550601681792140355
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_8
+  - first:
+      213: 7261729063753817017
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_9
+  - first:
+      213: 221663420331100945
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_10
+  - first:
+      213: -1337854837429775422
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_11
+  - first:
+      213: 4626263852603028165
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_12
+  - first:
+      213: 6765025250180805555
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_13
+  - first:
+      213: -7298367244424212123
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_14
+  - first:
+      213: 8250841004442940039
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_15
+  - first:
+      213: 8493377219858197349
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_16
+  - first:
+      213: 4263503280076876783
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_17
+  - first:
+      213: 4652647200768535959
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_18
+  - first:
+      213: -8573996551717217920
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_19
+  - first:
+      213: -4057053683558262850
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_20
+  - first:
+      213: 9210652685708972873
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_21
+  - first:
+      213: -7833518746932007299
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_22
+  - first:
+      213: 1745189749275358912
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_23
+  - first:
+      213: -1674561569141109374
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_24
+  - first:
+      213: -4566527831227582010
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_25
+  - first:
+      213: 2222494423722028322
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_26
+  - first:
+      213: -341277033039416742
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_27
+  - first:
+      213: -5727813796262299661
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_28
+  - first:
+      213: 8991308641618688966
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_29
+  - first:
+      213: 7444801716826628948
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_30
+  - first:
+      213: -7043166368575860978
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_31
+  - first:
+      213: 2835300606294400211
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_32
+  - first:
+      213: -3006467206786228126
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_33
+  - first:
+      213: -8771778925788077248
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_34
+  - first:
+      213: -4231190744790407306
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_35
+  - first:
+      213: -3861061588954673677
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_36
+  - first:
+      213: 5910184106284641882
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_37
+  - first:
+      213: 8554044191101603908
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_38
+  - first:
+      213: -733457863636764770
+    second: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 652
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05821dd1d231c7170800000000000000
+      internalID: 8177432107892680784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 652
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60ed2a5f74e9f9d0800000000000000
+      internalID: -2739907662653300629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 652
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee08316df21164590800000000000000
+      internalID: -7690440416535805714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 652
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26003c656121ffd80800000000000000
+      internalID: -8214827308146294686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 652
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f90e877966a0cf30800000000000000
+      internalID: 4593854591825480185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_5
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 652
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3bb5f72d4ecde00800000000000000
+      internalID: 1070982404138316710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 524
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8385208f9ef16a0800000000000000
+      internalID: -6476200487734986521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 524
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd49de2a29336010800000000000000
+      internalID: 1180850380638604734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 524
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3440c44e58968ea50800000000000000
+      internalID: 6550601681792140355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 524
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb1d24fb18d6c460800000000000000
+      internalID: 7261729063753817017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 524
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b8884d4b1831300800000000000000
+      internalID: 221663420331100945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 524
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3d5f51d1cfe6de0800000000000000
+      internalID: -1337854837429775422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 524
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c232a3867ac33040800000000000000
+      internalID: 4626263852603028165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b333955f9232ed50800000000000000
+      internalID: 6765025250180805555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5619fbbd8adf6ba90800000000000000
+      internalID: -7298367244424212123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7827c00cd20e08270800000000000000
+      internalID: 8250841004442940039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bea05e4998ed570800000000000000
+      internalID: 8493377219858197349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febe1bbe4a10b2b30800000000000000
+      internalID: 4263503280076876783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_18
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d26037af5819040800000000000000
+      internalID: 4652647200768535959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_19
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 396
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089987d209b030980800000000000000
+      internalID: -8573996551717217920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7d1d48b2372b7c0800000000000000
+      internalID: -4057053683558262850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 268
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9435e2941dfc2df70800000000000000
+      internalID: 9210652685708972873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 268
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e21c31430c94390800000000000000
+      internalID: -7833518746932007299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_23
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 268
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6f53f94d8283810800000000000000
+      internalID: 1745189749275358912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 268
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dc2d40023c2c8e0800000000000000
+      internalID: -1674561569141109374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_25
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 268
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9bebac12f60a0c0800000000000000
+      internalID: -4566527831227582010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22dec3137e2e7de10800000000000000
+      internalID: 2222494423722028322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52bfabb85a834bf0800000000000000
+      internalID: -341277033039416742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7343613b7b280b0800000000000000
+      internalID: -5727813796262299661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbf491529b87cc70800000000000000
+      internalID: 8991308641618688966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_30
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4536baa97bf315760800000000000000
+      internalID: 7444801716826628948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fce0b0185a14e90800000000000000
+      internalID: -7043166368575860978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_32
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 140
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc90ad11e2095720800000000000000
+      internalID: 2835300606294400211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26065ae1102e646d0800000000000000
+      internalID: -3006467206786228126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 12
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043e428ba81644680800000000000000
+      internalID: -8771778925788077248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_35
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 12
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677e8d77f6ac745c0800000000000000
+      internalID: -4231190744790407306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 12
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd837e01f0ca6ac0800000000000000
+      internalID: -3861061588954673677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_37
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 12
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e61449121350250800000000000000
+      internalID: 5910184106284641882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 12
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440da9bded116b670800000000000000
+      internalID: 8554044191101603908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: club-penguin-platform-game-tile-based-video-game-2d-computer-graphics-opengameart-org-stone-7a670014fd21b2ae64f4d6b38c282acc_39
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 12
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97b63485fb32d5f0800000000000000
+      internalID: -733457863636764770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
