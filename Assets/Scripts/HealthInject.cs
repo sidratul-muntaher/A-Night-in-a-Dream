@@ -9,7 +9,7 @@ public class HealthInject : MonoBehaviour
         if (collision.GetComponentInParent<Player>())
         {
             collision.GetComponentInParent<Health>().SetHealth(collision.GetComponentInParent<Health>().GetHealth() + 100);
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

@@ -8,7 +8,7 @@ public class AudioPlayer : MonoBehaviour
     {
         if (FindObjectsOfType<AudioPlayer>().Length > 1)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             
         }
         else

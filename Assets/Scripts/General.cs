@@ -29,7 +29,7 @@ public class General : MonoBehaviour
 
     bool closeCombat = false;
     bool swap = true;
-    int GLOBAL_SCALE = 0;
+    int globalScale = 0;
     Collider2D[] hitEnemys;
     bool swordAttack = false;
     
@@ -56,21 +56,7 @@ public class General : MonoBehaviour
         Debug.Log("Called");
 
     }
-    //IEnumerator SwapingAttack()
-    //{
-    //    animator.SetBool("ISFiring", true);
-    //    rigidbody.velocity = new Vector2(0, 0);
-    //    animator.SetBool("IsSpacialAttack", false);
-    //    animator.SetBool("IsMoving", false);
-
-    //    yield return new WaitForSeconds(4);
-
-    //    //rigidbody.velocity = new Vector2(2 * transform.localScale.x, rigidbody.velocity.y);
-    //    animator.SetBool("IsSpacialAttack", true);
-    //    animator.SetBool("IsMoving", false);
-    //    animator.SetBool("ISFiring", false);
-    //}
-    // Update is called once per frame
+   
 
     public void SetSwordAttack(int x)
     {
@@ -110,7 +96,7 @@ public class General : MonoBehaviour
         if (GetComponent<Health>().GetHealth() <= 0)
         {
             Idiot = true;
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
 
         if (GetComponent<Health>().GetHealth() < 2000 && onHealth)
@@ -169,7 +155,7 @@ public class General : MonoBehaviour
             
             
            
-                   if(GLOBAL_SCALE == 1 && Mathf.Abs(player.transform.position.x - transform.position.x) <= 1.4f && transform.localScale.x == 1)
+                   if(globalScale == 1 && Mathf.Abs(player.transform.position.x - transform.position.x) <= 1.4f && transform.localScale.x == 1)
                     {
                     //Debug.Log((Mathf.Abs(Mathf.Round(angle))));
                     animator.SetBool("ISFiring", false);
@@ -184,7 +170,7 @@ public class General : MonoBehaviour
                 //    Debug.Log("Hit " + item.name);
                 //}
             }
-                    else if (GLOBAL_SCALE == 0 && Mathf.Abs(player.transform.position.x - transform.position.x) < 3)
+                    else if (globalScale == 0 && Mathf.Abs(player.transform.position.x - transform.position.x) < 3)
                     {
                         animator.SetBool("ISFiring", true);
                         animator.SetBool("IsSpacialAttack", false);
@@ -213,7 +199,7 @@ public class General : MonoBehaviour
                 animator.SetBool("ISFiring", false);
                 animator.SetBool("IsSpacialAttack", false);
                 rigidbody.velocity = new Vector2(1 * transform.localScale.x, rigidbody.velocity.y);
-                GLOBAL_SCALE = Random.Range(0, 2);
+                globalScale = Random.Range(0, 2);
 
             }
 
@@ -230,11 +216,7 @@ public class General : MonoBehaviour
             transform.localScale = new Vector2(-1, 1);
         }
     }
-    public void sowordDamage()
-    {
-        
-        
-    }
+   
     private void OnDrawGizmosSelected()
     {
         if (swordTransform == null)
@@ -250,6 +232,7 @@ public class General : MonoBehaviour
         
         Bullet b1  = bulletObjectPuller.BulletSpawning(firePoint);
         b1.gameObject.SetActive(true);
+        GetComponent<SpriteRenderer>().enabled = true;
         b1.GetComponent<Rigidbody2D>().velocity = new Vector2(transform.localScale.x * 5, 0);
        // 
     }

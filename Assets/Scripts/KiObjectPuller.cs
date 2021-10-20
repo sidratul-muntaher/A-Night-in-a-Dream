@@ -15,6 +15,7 @@ public class KiObjectPuller : MonoBehaviour
         for (int i = 0; i < size; i++)
         {
             kis[i] = Instantiate(ki, transform.position, Quaternion.identity);
+            kis[i].GetComponent<SpriteRenderer>().enabled = false;
             kis[i].gameObject.SetActive(false);
         }    
     }
@@ -35,11 +36,6 @@ public class KiObjectPuller : MonoBehaviour
             counter++;
         }
         
-       
-        if (k == null)
-        {
-            return null;
-        }
         return k;
     }
   

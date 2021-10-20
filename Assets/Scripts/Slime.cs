@@ -10,9 +10,6 @@ public class Slime : MonoBehaviour
     [SerializeField] TriggerExit exit;
     //bool start = true;
     bool walkingInRange = false;
-    bool shotingAngle = false;
-    bool fire = false;
-    float globalScale = 1;
     // Start is called before the first frame update
     IEnumerator Start()
     {
@@ -63,12 +60,12 @@ public class Slime : MonoBehaviour
 
         if (GetComponent<Health>().GetHealth() <= 0)
         {
-            die();
+            Die();
         }
     }
-    private void die()
+    private void Die()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
     

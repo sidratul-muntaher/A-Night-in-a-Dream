@@ -15,6 +15,7 @@ public class BulletObjectPuller : MonoBehaviour
         for (int i = 0; i < size; i++)
         {
             bullets[i] = Instantiate(bullet, transform.position, Quaternion.identity);
+            bullets[i].GetComponent<SpriteRenderer>().enabled = false;
             bullets[i].gameObject.SetActive(false);
         }
     }

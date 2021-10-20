@@ -15,6 +15,7 @@ public class Grave : MonoBehaviour
         else if (collision.GetComponentInParent<Player>())
         {
             game.SetActive(true);
+            GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 }

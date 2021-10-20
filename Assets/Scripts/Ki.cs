@@ -4,21 +4,17 @@ using UnityEngine;
 
 public class Ki : MonoBehaviour
 {
-    [SerializeField] float FIREpOINT;
+    [SerializeField] float firePoint;
     [SerializeField] GameObject game;
-    // Start is called before the first frame update
-    void Start()
-    {
-      // FIREpOINT =  FindObjectOfType<Player>().transform.position.x;
-    }
+    
 
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(Mathf.Abs(Mathf.Abs(FIREpOINT) - Mathf.Abs(transform.position.x)) > 3);
         if (Mathf.Abs(Mathf.Abs(FindObjectOfType<Player>().transform.position.x) - Mathf.Abs(transform.position.x)) > 5)
         {
             gameObject.SetActive(false);
+            GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 
@@ -34,6 +30,7 @@ if (collision.gameObject.GetComponent<Health>())
         //todo: remove instantiate
         Destroy(Instantiate(game, transform.position, Quaternion.identity), .3f);
        gameObject.SetActive(false);
-        
+        GetComponent<SpriteRenderer>().enabled = false;
+
     }
 }

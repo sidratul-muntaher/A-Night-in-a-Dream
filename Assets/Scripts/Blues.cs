@@ -53,12 +53,10 @@ public class Blues : MonoBehaviour
                 Vector2 pos = player.transform.position - transform.position;
                 float angle = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
 
-                //Debug.Log(Mathf.Abs(Mathf.Round(angle)));
                 if ((Mathf.Abs(Mathf.Round(angle)) < 190 && Mathf.Abs(Mathf.Round(angle)) > 170) ||
                     ((Mathf.Abs(Mathf.Round(angle)) > -15 && ((Mathf.Abs(Mathf.Round(angle)) < 15)))))
                 {
                     
-
                     transform.localScale = new Vector2(Mathf.Sign(transform.position.x - player.transform.position.x), 1);
                     globalScale = transform.localScale.x;
                     shotingAngle = true;
@@ -72,11 +70,6 @@ public class Blues : MonoBehaviour
                 if (Mathf.Abs(player.transform.position.x - transform.position.x) <= 5 && shotingAngle)
                 {
 
-                    /*if ((startHealth - player.GetComponentInParent<Health>().GetHealth()) > 200 && reduceHealth)
-                    {
-                        audioSource.PlayOneShot(audioClip[3], .5f);
-                        reduceHealth = false;
-                    }*/
 
                     Debug.DrawLine(player.transform.position, transform.position, Color.green);
                     walkingInRange = false;
@@ -130,7 +123,6 @@ public class Blues : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
         health.DecreaseHealth(GetComponent<Health>().GetHealth());
@@ -146,7 +138,6 @@ public class Blues : MonoBehaviour
            
             Die();
         }
-        // Debug.Log();
     }
     private void Die()
     {
@@ -164,8 +155,8 @@ public class Blues : MonoBehaviour
         
 
         Bullet b1 = bulletObjectPuller.BulletSpawning(bodyTransform[0]);
+        b1.GetComponent<SpriteRenderer>().enabled = true;
         b1.gameObject.SetActive(true);
-        //b1.transform.localScale = new Vector2(globalScale, 1);
         b1.GetComponent<Rigidbody2D>().velocity = new Vector2(-globalScale * 5, 0);
 
         yield return new WaitForSeconds(.1f);
@@ -173,7 +164,7 @@ public class Blues : MonoBehaviour
         
         Bullet b2 = bulletObjectPuller.BulletSpawning(bodyTransform[1]);
         b2.gameObject.SetActive(true);
-        //b2.transform.localScale = new Vector2(globalScale, 1);
+        b2.GetComponent<SpriteRenderer>().enabled = true;
         b2.GetComponent<Rigidbody2D>().velocity = new Vector2(-globalScale * 5, 0);
 
         rebeRebeRealGood += 1;
@@ -192,6 +183,7 @@ public class Blues : MonoBehaviour
         }
     }
 
+    //todo change name
     public void Xxx(int s)
     {
         if (s == 1)

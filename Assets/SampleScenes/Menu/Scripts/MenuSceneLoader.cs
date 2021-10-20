@@ -11,7 +11,7 @@ public class MenuSceneLoader : MonoBehaviour
 	{
 	    if (m_Go == null)
 	    {
-			//todo: remove instantiate
+			
 	        m_Go = Instantiate(menuUI);
 	    }
 	}

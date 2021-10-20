@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     [SerializeField] DimondBar dimond;
     [SerializeField] int damagePoint = 20;
 
-    [SerializeField] GameObject WinnerX;
+    [SerializeField] GameObject winnerX;
 
     [SerializeField] AudioSource audioSource;
     [SerializeField] List<AudioClip> audioClip;
@@ -32,7 +32,6 @@ public class Player : MonoBehaviour
     List<Vector2> transforms;
     bool finished = false;
     bool j = true;
-    float nearestDistance;
     Coroutine coroutine;
     float globalMove = 1;
     string[] swordAttack = { "ISA", "ISR", "ISU" };
@@ -41,7 +40,6 @@ public class Player : MonoBehaviour
     int i = 0;
     void Start()
     {
-        Debug.Log("-> " );
         transforms = new List<Vector2>();
         Debug.Log(FindObjectsOfType<AllEnemys>().Length);
         // FindObjectOfType<A
@@ -69,7 +67,7 @@ public class Player : MonoBehaviour
     IEnumerator DeadX()
     {
         yield return new WaitForSeconds(2);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
         SeceneMAnager.GameOver();
     }
     
@@ -96,7 +94,7 @@ public class Player : MonoBehaviour
 
         if (X.IsDead() && GetComponent<CoinBank>().GetCoin() >= 200)
         {
-            WinnerX.SetActive(true);
+            winnerX.SetActive(true);
             Time.timeScale = 0f;
         }
 
@@ -136,13 +134,7 @@ public class Player : MonoBehaviour
             
         Jump();
     }
-
-
-
-
-
-
-
+    
 
     private void Jump()
     {
@@ -279,7 +271,8 @@ public class Player : MonoBehaviour
         Transform kiP = kiPoint.transform;
         Ki k = kiObjectPuller.SpwningKis(kiP);
         k.gameObject.SetActive(true);
-            k.transform.localScale = new Vector2(globalMove, 1);
+        k.GetComponent<SpriteRenderer>().enabled = true;
+        k.transform.localScale = new Vector2(globalMove, 1);
             k.GetComponent<Rigidbody2D>().velocity = new Vector2(globalMove * kiSpeed, 0f);
         yield return new WaitForSeconds(.1f);
     }

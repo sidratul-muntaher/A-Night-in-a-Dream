@@ -80,7 +80,7 @@
     <Compile Include="Assets\Scripts\General.cs" />
     <Compile Include="Assets\Scripts\CoinBank.cs" />
     <Compile Include="Assets\Scripts\HealthBar.cs" />
-    <Compile Include="Assets\TriggerExit.cs" />
+    <Compile Include="Assets\Scripts\TriggerExit.cs" />
     <Compile Include="Assets\Scripts\Plant.cs" />
     <Compile Include="Assets\Scripts\Grave.cs" />
     <Compile Include="Assets\Scripts\Ki.cs" />
@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\Bullet.cs" />
     <Compile Include="Assets\Scripts\TreasureBox.cs" />
     <Compile Include="Assets\Scripts\AllEnemys.cs" />
+    <Compile Include="Assets\Scripts\BulletObjectPuller.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\AttachGameObjectsToParticles.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
@@ -97,9 +98,8 @@
     <Compile Include="Assets\Scripts\Blues.cs" />
     <Compile Include="Assets\Scripts\StartMenu.cs" />
     <Compile Include="Assets\Scripts\Slime.cs" />
-    <Compile Include="Assets\Scripts\Pannel.cs" />
     <Compile Include="Assets\Scripts\KiObjectPuller.cs" />
-    <Compile Include="Assets\Scripts\BulletObjectPuller.cs" />
+    <Compile Include="Assets\Scripts\Pannel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

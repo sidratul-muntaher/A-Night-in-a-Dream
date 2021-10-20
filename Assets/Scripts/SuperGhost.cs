@@ -13,11 +13,6 @@ public class SuperGhost : MonoBehaviour
     [SerializeField] AudioSource source;
     [SerializeField] GameObject bomb;
     bool start = true;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -74,18 +69,17 @@ public class SuperGhost : MonoBehaviour
             source.PlayOneShot(hit2, 1f);
         }
        
-        Destroy(gameObject, .5f);
-        StartCoroutine(boom());
+        Invoke("Active", .5f);
+        StartCoroutine(Boom());
     }
-
-    IEnumerator boom()
+    public void Active()
+    {
+        gameObject.SetActive(false);
+    }
+    IEnumerator Boom()
     {
         yield return new WaitForSeconds(.4f);
         //todo: remove instantiate
         Destroy(Instantiate(bomb, transform.position, Quaternion.identity), 1f);
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-       
     }
 }

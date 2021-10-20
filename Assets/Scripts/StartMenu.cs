@@ -13,7 +13,6 @@ public class StartMenu : MonoBehaviour
 
     public void StartGame()
     {
-        Debug.Log("X");
         int i = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(i + 1);
     }

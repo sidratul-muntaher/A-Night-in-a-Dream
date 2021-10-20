@@ -14,9 +14,6 @@ public class FrogMan : MonoBehaviour
     [SerializeField] HealthBar health;
 
 
-    // Corutins
-
-    Coroutine hits;
 
     // For Audio Clip
 
@@ -51,7 +48,7 @@ public class FrogMan : MonoBehaviour
 
         if (GetComponent<Health>().GetHealth() <= 0)
         {
-            die();
+            Die();
 
         }
         else
@@ -63,10 +60,10 @@ public class FrogMan : MonoBehaviour
 
     }
 
-    private void die()
+    private void Die()
     {
         AudioSource.PlayClipAtPoint(audioClip[12], Camera.main.transform.position, .8f);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
     private void Activity()
@@ -150,14 +147,6 @@ public class FrogMan : MonoBehaviour
             FindObjectOfType<Player>().GetComponent<Health>().SetHealth(player.GetComponent<Health>().GetHealth() - damage);
            // StopCoroutine(hits);
         }
-    }
-
-    
-
-    IEnumerator HitSound()
-    {
-        
-        yield return new WaitForSeconds(.2f);
     }
 
 }

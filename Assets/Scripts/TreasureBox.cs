@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TreasureBox : MonoBehaviour
 {
-    [SerializeField] GameObject Prixe;
+    [SerializeField] GameObject prize;
    
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -17,7 +17,7 @@ public class TreasureBox : MonoBehaviour
 
     public void BoxOpen()
     {
-        Prixe.SetActive(true);
+        prize.SetActive(true);
     }
 
 }

@@ -9,16 +9,11 @@ public class Pause : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(wait());
+        StartCoroutine(Wait());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
-    IEnumerator  wait()
+    IEnumerator  Wait()
     {
         
         yield return new WaitForSeconds(2f);

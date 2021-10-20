@@ -11,15 +11,11 @@ public class TriggerExit : MonoBehaviour
     {
         if ( slime.transform.localScale.x == 1)
         {
-            Debug.Log("One");
             start = false;
-           // transform.localScale = new Vector2(1, 1);
         }
         else if (slime.transform.localScale.x == -1)
         {
-            Debug.Log(-1);
             start = true;
-           // transform.localScale = new Vector2(-1, 1);
         }
     }
 

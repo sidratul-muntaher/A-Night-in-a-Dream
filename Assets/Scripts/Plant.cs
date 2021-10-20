@@ -69,19 +69,12 @@ public class Plant : MonoBehaviour
     }
     IEnumerator Shoot()
     {
-
-
-
-
         yield return new WaitForSeconds(.1f);
 
-        
         Bullet b2 = bulletObjectPuller.BulletSpawning(bodyTransform[0]);
+        b2.GetComponent<SpriteRenderer>().enabled = true;
         b2.gameObject.SetActive(true);
-        //b2.transform.localScale = new Vector2(globalScale, 1);
         b2.GetComponent<Rigidbody2D>().velocity = new Vector2(-globalScale * 5, 0);
-
-        
 
     }
 
@@ -102,12 +95,12 @@ public class Plant : MonoBehaviour
     {
         if (GetComponent<Health>().GetHealth() <= 0)
         {
-            die();
+            Die();
         }
     }
-    private void die()
+    private void Die()
     {
-        Destroy(gameObject);
+       gameObject.SetActive(false);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

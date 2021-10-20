@@ -53,9 +53,7 @@ public class Army : MonoBehaviour
                 collider = GetComponent<Collider2D>();
                 Vector2 pos = player.transform.position - transform.position;
                 float angle = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
-                //Debug.Log((Mathf.Abs(Mathf.Round(angle))) +  " ->"+ 
-                //    (Mathf.Abs(Mathf.Round(angle)) < 190 && Mathf.Abs(Mathf.Round(angle)) > 170)
-                //     + " -> "+ (Mathf.Round(angle) > 0 && Mathf.Round(angle) < 12));
+                
 
                 if ((Mathf.Abs(Mathf.Round(angle)) < 190 && Mathf.Abs(Mathf.Round(angle)) > 170) ||
                     ((Mathf.Abs(Mathf.Round(angle)) > 0 && ((Mathf.Abs(Mathf.Round(angle)) < 15)))))
@@ -82,10 +80,7 @@ public class Army : MonoBehaviour
                     {
                         if (rangeAreaInStart)
                         {
-                            
-                           // startHealth = player.GetComponentInParent<Health>().GetHealth();
                             audioSource.PlayOneShot(audioClip[0], 1f);
-                            Debug.Log("On");
                             rangeAreaInStart = false;
                         }
                         StartCoroutine(Shoot());
@@ -145,25 +140,19 @@ public class Army : MonoBehaviour
             Die();
         }
         
-
-        // Debug.Log();
     }
 
     private void Die()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 
     IEnumerator Shoot()
     {
 
-        
-
-        
-
         Bullet b2 =   bulletObjectPuller.BulletSpawning(bodyTransform[0]);
         b2.gameObject.SetActive(true);
-        //b2.transform.localScale = new Vector2(globalScale, 1);
+        GetComponent<SpriteRenderer>().enabled = true;
         b2.GetComponent<Rigidbody2D>().velocity = new Vector2(-globalScale * 5, 0);
         yield return new WaitForSeconds(.2f);
 
@@ -181,6 +170,8 @@ public class Army : MonoBehaviour
         }
     }
 
+
+    //todo change method name
     public void Xxx(int s)
     {
         if (s == 1)

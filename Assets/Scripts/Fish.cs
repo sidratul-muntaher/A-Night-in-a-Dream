@@ -48,9 +48,4 @@ public class Fish : MonoBehaviour
     }
 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

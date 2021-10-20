@@ -13,7 +13,6 @@ public class Bullet : MonoBehaviour
     [SerializeField] AudioSource audioSource;
 
     int x = 0;
-     // Start is called before the first frame update
     void Start()
     {
         AudioSource.PlayClipAtPoint(audioClips[0],Camera.main.transform.position,  .7f);
@@ -23,13 +22,9 @@ public class Bullet : MonoBehaviour
     public void Active()
     {
         gameObject.SetActive(false);
+        GetComponent<SpriteRenderer>().enabled = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
@@ -38,12 +33,13 @@ public class Bullet : MonoBehaviour
             Debug.Log("Hit");
             x = collision.GetComponentInParent<Health>().GetHealth() - damagePoint;
             collision.GetComponentInParent<Health>().SetHealth(x);
-             Destroy(Instantiate(game, transform.position, Quaternion.identity), .2f);
+            //todo: remove distroy
+            Destroy(Instantiate(game, transform.position, Quaternion.identity), .2f);
 
         }
-        // collision.IsTouching(LayerMask.GetMask("Player"))
         gameObject.SetActive(false);
-        //todo: remove instantiate
+        GetComponent<SpriteRenderer>().enabled = false;
        
+
     }
 }
